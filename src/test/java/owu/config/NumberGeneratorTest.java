@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class NumberGeneratorTest {
 
     @Test
-    void generateNumber() {
+    void givenTwoParamsMinAndMax_whenGenerateNumber_ThanReturnGeneratedValueInBound() {
         NumberGenerator numberGenerator = new NumberGenerator();
         numberGenerator.setMin(56);
         numberGenerator.setMax(58);

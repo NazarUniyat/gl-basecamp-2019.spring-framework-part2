@@ -18,11 +18,11 @@ public class Game {
         this.numberGenerator = numberGenerator;
     }
 
-    public GameResponse play(int gueass) {
+    public GameResponse play(int guess) {
         int i = numberGenerator.generateNumber();
-        if (i == gueass) {
-            return new GameResponse("Winner",gueass);
-        } else return new GameResponse("Looser",gueass);
+        if (i == guess) {
+            return new GameResponse("Winner",guess);
+        } else return new GameResponse("Looser",guess);
     }
 }
 
