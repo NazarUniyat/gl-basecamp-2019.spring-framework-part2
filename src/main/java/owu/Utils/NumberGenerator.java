@@ -1,4 +1,4 @@
-package owu.config;
+package owu.Utils;
 
 import lombok.Data;
 

@@ -1,6 +1,7 @@
 package owu.config;
 
 import org.junit.jupiter.api.Test;
+import owu.Utils.NumberGenerator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

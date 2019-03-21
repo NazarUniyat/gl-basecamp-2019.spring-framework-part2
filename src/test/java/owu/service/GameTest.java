@@ -1,7 +1,7 @@
 package owu.service;
 
 import org.junit.jupiter.api.Test;
-import owu.config.NumberGenerator;
+import owu.Utils.NumberGenerator;
 import owu.wire.GameResponse;
 
 import static org.junit.jupiter.api.Assertions.*;

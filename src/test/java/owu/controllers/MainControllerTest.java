@@ -28,8 +28,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class MainControllerTest {
 
-    @Autowired
     private WebApplicationContext wac;
+
+    @Autowired
+    public MainControllerTest(WebApplicationContext wac) {
+        this.wac = wac;
+    }
 
     private MockMvc mockMvc;
 
