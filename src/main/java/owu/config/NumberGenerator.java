@@ -1,10 +1,10 @@
 package owu.config;
 
-import lombok.Setter;
+import lombok.Data;
 
 import java.util.Random;
 
-@Setter
+@Data
 public class NumberGenerator {
 
     private int max = 3;

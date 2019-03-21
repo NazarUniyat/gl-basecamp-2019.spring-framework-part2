@@ -14,9 +14,12 @@ import owu.wire.Message;
 @RestController
 public class MainController {
 
-    @Autowired
-    Game game;
+    private Game game;
 
+    @Autowired
+    public MainController(Game game) {
+        this.game = game;
+    }
 
     @GetMapping("/{guess}")
     @ResponseBody
